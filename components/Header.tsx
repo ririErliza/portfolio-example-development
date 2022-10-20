@@ -7,7 +7,13 @@ type Props = {}
 export default function Header({}: Props) {
   return  (
     <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto'>
-    <motion.div className='flex flex-row items-center'>
+    <motion.div
+     initial={{
+      x:-500,
+      opacity:0,
+      scale:0.5
+     }}
+     className='flex flex-row items-center'>
       {/* social icons */}
       <SocialIcon url="https://twitter.com/jaketrent" 
       fgColor='gray' bgColor='transparent' />
