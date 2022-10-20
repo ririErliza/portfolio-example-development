@@ -13,6 +13,11 @@ export default function Header({}: Props) {
       opacity:0,
       scale:0.5
      }}
+     animate={{
+      x:0,
+      opacity:1,
+      scale:1
+     }}
      className='flex flex-row items-center'>
       {/* social icons */}
       <SocialIcon url="https://twitter.com/jaketrent" 
