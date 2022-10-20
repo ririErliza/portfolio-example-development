@@ -7,7 +7,7 @@ type Props = {}
 export default function Header({}: Props) {
   return  (
     <header className='sticky top-0 p-5 flex items-start justify-between max-w-7xl mx-auto'>
-    <div className='flex flex-row items-center'>
+    <motion.div className='flex flex-row items-center'>
       {/* social icons */}
       <SocialIcon url="https://twitter.com/jaketrent" 
       fgColor='gray' bgColor='transparent' />
@@ -17,7 +17,7 @@ export default function Header({}: Props) {
 
       <SocialIcon url="https://twitter.com/jaketrent"
       fgColor='gray' bgColor='transparent' />
-    </div>
+    </motion.div>
 
     {/* contact me */}
     <div className='flex flex-row items-center text-gray-300 cursor-pointer'>
