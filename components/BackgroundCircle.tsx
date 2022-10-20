@@ -4,7 +4,9 @@ type Props = {}
 
 function BackgroundCircle({}: Props) {
   return (
-    <div>BackgroundCircle</div>
+    <div>
+        
+    </div>
   )
 }
 
