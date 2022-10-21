@@ -28,10 +28,13 @@ export default function Header({}: Props) {
       <SocialIcon url="https://twitter.com/jaketrent" 
       fgColor='gray' bgColor='transparent' />
 
-      <SocialIcon url="https://twitter.com/jaketrent" 
+      <SocialIcon url="https://youtube.com/jaketrent" 
       fgColor='gray' bgColor='transparent' />
 
-      <SocialIcon url="https://twitter.com/jaketrent"
+      <SocialIcon url="https://linkedin.com/jaketrent"
+      fgColor='gray' bgColor='transparent' />
+
+      <SocialIcon url="https://facebook.com/jaketrent"
       fgColor='gray' bgColor='transparent' />
     </motion.div>
 
